@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		45DB7E712DFF772D0090620E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45DB7E3B2DFEB60E0090620E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45DB7E422DFEB60E0090620E;
+			remoteInfo = VitaSwift;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		45DB7E432DFEB60E0090620E /* VitaSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VitaSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DB7E672DFF75FE0090620E /* VitaSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = VitaSwift.app; path = "/Users/algoives/VitaSwift/VitaSwift/build/Debug-iphoneos/VitaSwift.app"; sourceTree = "<absolute>"; };
+		45DB7E6D2DFF772D0090620E /* VitaSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitaSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = VitaSwift;
 			sourceTree = "<group>";
 		};
+		45DB7E6E2DFF772D0090620E /* VitaSwiftTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VitaSwiftTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		45DB7E402DFEB60E0090620E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DB7E6A2DFF772D0090620E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,16 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				45DB7E452DFEB60E0090620E /* VitaSwift */,
-				45DB7E442DFEB60E0090620E /* Products */,
+				45DB7E6D2DFF772D0090620E /* VitaSwiftTests.xctest */,
+				45DB7E6E2DFF772D0090620E /* VitaSwiftTests */,
 			);
-			sourceTree = "<group>";
-		};
-		45DB7E442DFEB60E0090620E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				45DB7E432DFEB60E0090620E /* VitaSwift.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -67,8 +83,31 @@
 			packageProductDependencies = (
 			);
 			productName = VitaSwift;
-			productReference = 45DB7E432DFEB60E0090620E /* VitaSwift.app */;
+			productReference = 45DB7E672DFF75FE0090620E /* VitaSwift.app */;
 			productType = "com.apple.product-type.application";
+		};
+		45DB7E6C2DFF772D0090620E /* VitaSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45DB7E732DFF772D0090620E /* Build configuration list for PBXNativeTarget "VitaSwiftTests" */;
+			buildPhases = (
+				45DB7E692DFF772D0090620E /* Sources */,
+				45DB7E6A2DFF772D0090620E /* Frameworks */,
+				45DB7E6B2DFF772D0090620E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45DB7E722DFF772D0090620E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				45DB7E6E2DFF772D0090620E /* VitaSwiftTests */,
+			);
+			name = VitaSwiftTests;
+			packageProductDependencies = (
+			);
+			productName = VitaSwiftTests;
+			productReference = 45DB7E6D2DFF772D0090620E /* VitaSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -83,6 +122,10 @@
 					45DB7E422DFEB60E0090620E = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					45DB7E6C2DFF772D0090620E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 45DB7E422DFEB60E0090620E;
+					};
 				};
 			};
 			buildConfigurationList = 45DB7E3E2DFEB60E0090620E /* Build configuration list for PBXProject "VitaSwift" */;
@@ -95,17 +138,25 @@
 			mainGroup = 45DB7E3A2DFEB60E0090620E;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 45DB7E442DFEB60E0090620E /* Products */;
+			productRefGroup = 45DB7E3A2DFEB60E0090620E;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				45DB7E422DFEB60E0090620E /* VitaSwift */,
+				45DB7E6C2DFF772D0090620E /* VitaSwiftTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		45DB7E412DFEB60E0090620E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DB7E6B2DFF772D0090620E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +173,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		45DB7E692DFF772D0090620E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45DB7E722DFF772D0090620E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45DB7E422DFEB60E0090620E /* VitaSwift */;
+			targetProxy = 45DB7E712DFF772D0090620E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		45DB7E4F2DFEB60F0090620E /* Debug */ = {
@@ -302,6 +368,42 @@
 			};
 			name = Release;
 		};
+		45DB7E742DFF772D0090620E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BV8QQX5M8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = algoives.VitaSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VitaSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VitaSwift";
+			};
+			name = Debug;
+		};
+		45DB7E752DFF772D0090620E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BV8QQX5M8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = algoives.VitaSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VitaSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VitaSwift";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -319,6 +421,15 @@
 			buildConfigurations = (
 				45DB7E522DFEB60F0090620E /* Debug */,
 				45DB7E532DFEB60F0090620E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45DB7E732DFF772D0090620E /* Build configuration list for PBXNativeTarget "VitaSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DB7E742DFF772D0090620E /* Debug */,
+				45DB7E752DFF772D0090620E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
