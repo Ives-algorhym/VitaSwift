@@ -48,3 +48,5 @@ playground.xcworkspace
 
 # MARK: - Secrets or Local Config (optional)
 .env
+*.xcuserstate
+*.xcuserdata
