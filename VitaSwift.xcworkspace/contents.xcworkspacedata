@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Features/Resume">
+   </FileRef>
+   <FileRef
       location = "group:VitaSwift/VitaSwift.xcodeproj">
    </FileRef>
 </Workspace>
